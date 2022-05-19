@@ -12,7 +12,7 @@ RSpec.describe 'items index' do
   end
 
   describe 'display' do
-    describe 'items' do
+    describe 'list of items' do
       it 'name of every item' do
         within("#item-#{@item1.id}") do
           expect(page).to have_content(@item1.name)
