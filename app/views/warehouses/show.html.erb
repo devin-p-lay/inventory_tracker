@@ -1,0 +1,12 @@
+<h1><%= @warehouse.location %> Warehouse</h1>
+
+<%= link_to 'Create new item', new_warehouse_item_path(@warehouse) %>
+
+<hr>
+<div id="inventory_items">
+  <h3>Inventory Items:</h3>
+
+  <% @warehouse.items.each do |item| %>
+    <p><%= link_to item.name, warehouse_item_path(@warehouse, item) %></p>
+  <% end %>
+</div>
