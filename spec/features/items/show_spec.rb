@@ -10,15 +10,15 @@ RSpec.describe 'item show' do
     end
 
     describe 'display' do
-      xit 'name of the item' do
+      it 'name of the item' do
         expect(page).to have_content(@item.name)
       end
 
-      xit 'item description' do
+      it 'item description' do
         expect(page).to have_content(@item.description)
       end
 
-      xit 'warehouse/location' do
+      it 'warehouse/location' do
         expect(page).to have_content(@item.warehouse.location)
       end
     end
