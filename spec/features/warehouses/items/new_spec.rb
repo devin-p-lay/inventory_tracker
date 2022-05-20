@@ -8,7 +8,7 @@ RSpec.describe 'new item' do
   end
 
   describe 'form to create new warehouse' do
-    xit 'when i fill in attributes and click submit, i am taken to items index where i see my new item' do
+    it 'when i fill in attributes and click submit, i am taken to items index where i see my new item' do
       expect(Item.count).to eq(1)
 
       fill_in 'Name', with: 'Thinga-Majig'
