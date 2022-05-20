@@ -1,0 +1,8 @@
+<h1>Creating a new warehouse</h1>
+
+<%= form_with url: '/warehouses', method: :create, local: true do |f| %>
+  <%= f.label :location %>
+  <%= f.text_field :location %>
+
+  <%= f.submit 'Create Warehouse' %>
+<% end %>

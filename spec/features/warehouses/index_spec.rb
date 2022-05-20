@@ -23,6 +23,11 @@ RSpec.describe 'warehouses index' do
         click_on @warehouse1.location
         expect(current_path).to eq("/warehouses/#{@warehouse1.id}")
       end
+
+      it 'link to create a new warehouse' do
+        click_on 'Create a new warehouse'
+        expect(current_path).to eq('/warehouses/new')
+      end 
     end
   end
 end
