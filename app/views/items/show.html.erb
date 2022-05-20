@@ -1,0 +1,8 @@
+<h1><%= @item.name %></h1>
+<hr>
+<%= link_to 'Delete Item', warehouse_item_path(@item.warehouse, @item), method: :delete %>
+
+<h3>Description: </h3>
+  <p><%= @item.description %></p>
+<h3>Warehouse/Location: </h3>
+  <p><%= link_to @item.warehouse.location, warehouse_path(@item.warehouse)%></p>
