@@ -1,6 +1,6 @@
 <h1><%= @item.name %></h1>
 <hr>
-<%= link_to 'Delete Item', warehouse_item_path(@item.warehouse, @item), method: :delete %>
+<%= link_to 'delete item', warehouse_item_path(@item.warehouse, @item), method: :delete %> | <%= link_to 'edit item', "/items/#{@item.id}/edit" %>
 
 <h3>Description: </h3>
   <p><%= @item.description %></p>

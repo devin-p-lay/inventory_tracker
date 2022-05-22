@@ -21,6 +21,17 @@ RSpec.describe 'item show' do
       it 'warehouse/location' do
         expect(page).to have_content(@item.warehouse.location)
       end
+
+      it 'link to edit' do
+        click_on 'edit item'
+        expect(current_path).to eq(edit_item_path(@item))
+      end
+
+      it 'link to delete' do
+        click_on 'delete item'
+        expect(current_path).to eq(items_path)
+        expect(page).to_not have_content(@item.name)
+      end 
     end
   end
 end
