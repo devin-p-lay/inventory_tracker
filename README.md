@@ -43,12 +43,11 @@ This is a rails-based application that tracks warehouses and their items.
   
   <div align="center">Inventory Items Index page lists all existing items
     
-    ![Screen Shot 2022-05-22 at 1 57 00 PM](https://user-images.githubusercontent.com/87088092/169713574-ec3c04da-d457-4bbc-8d17-bb61fc3ce11a.png)
-
+  ![Screen Shot 2022-05-22 at 1 57 00 PM](https://user-images.githubusercontent.com/87088092/169713574-ec3c04da-d457-4bbc-8d17-bb61fc3ce11a.png)
     
-    All items link to their Show Page, where I can create, read, update, or delete that item
+  All items link to their Show Page, where I can create, read, update, or delete that item
   
-    ![Screen Shot 2022-05-22 at 2 00 12 PM](https://user-images.githubusercontent.com/87088092/169713753-9a5ed598-bfb1-4238-b935-f1c4690d2f70.png)
+  ![Screen Shot 2022-05-22 at 2 00 12 PM](https://user-images.githubusercontent.com/87088092/169713753-9a5ed598-bfb1-4238-b935-f1c4690d2f70.png)
 
   </div>
 </details>
